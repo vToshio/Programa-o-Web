@@ -35,6 +35,7 @@ a {
 
 .links-navbar {
     font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
     color: white;
 }
 
@@ -44,10 +45,10 @@ a {
 
 .logo {
     font-family: "Star Wars";
-    width: 700px;
+    width: 500px;
     margin: auto;
     padding-left: 50px;
-    font-size: 60px;
+    font-size: 40px;
     text-align: center;
     text-decoration: none;
     color: white;
@@ -79,8 +80,8 @@ footer {
 section {
     width: fit-content;
     height: fit-content;
-    margin: 200px 400px;
-    padding: 100px;
+    margin: 150px;
+    padding: 50px;
     text-align: center;
     border-radius: 50px;
     background: transparent;
@@ -88,17 +89,20 @@ section {
 }
 
 .centralizado {
-    margin: 300px auto;
+    margin: 150px auto;
 }
 
-#biografia {
-    display: flex;
+#luta {
+    margin-top: 30px;
+    border-radius: 50px;
 }
 
 #George {
+    width: 400px;
+    height: 500px;
     border-radius: 50px;
     border-style: solid;
-    margin-left: 20px;
+    margin: 40px 0px;
     color: yellow;
     box-shadow: 0px 0px 50px yellow;
 }
@@ -118,26 +122,26 @@ h1, h2, li, p{
 }
 
 h1 {
-    font-size: 52px;
+    font-size: 32px;
     text-decoration: underline;
 }
 
 h2 {
-    font-size: 48px;
+    font-size: 28px;
 }
 
 p {
-    margin: 20px;
+    margin: 10px;
 }
 
 p, li {
-    font-size: 32px;
+    font-size: 18px;
 }
 
 form {
     width: fit-content;
     height: fit-content;
-    margin: 300px auto;
+    margin: 150px auto;
     padding: 50px;
 
     text-align: center;
@@ -154,21 +158,22 @@ form {
 
 legend {
     text-align: center;
-    font-size: 40px;
+    font-size: 28px;
     margin-bottom: 50px;
 }
 
 label {
-    font-size: 36px;
+    font-size: 18px;
     text-align: left;
     display: block;
+    margin-bottom: 5px;
 }
 
 input {
     width: 300px;
-    height: 40px;
-    font-size: 36px;
-    border-radius: 15px;
+    height: 25px;
+    font-size: 18px;
+    border-radius: 10px;
 }
 
 .campo {
@@ -189,7 +194,7 @@ button {
     padding: 8px;
     margin: 0 20px;
     
-    font-size: 30px;
+    font-size: 22px;
     text-align: center;
 
     border-radius: 20px;
@@ -198,6 +203,10 @@ button {
     border-color: yellow;
     color: yellow;
     background-color: transparent;
+}
+
+button:active {
+    font-size: 18px;
 }
 
 #botao-confirmar:hover {

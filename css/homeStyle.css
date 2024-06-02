@@ -17,13 +17,13 @@ main {
 
 h1 {
     font-family: 'Star Wars';
-    font-size: 1300%;
+    font-size: 160px;
     color: white;
     text-shadow: 0px 0px 50px yellow;
 }
 
 button {
-    font-size: 32px;
+    font-size: 28px;
     width: fit-content;
     margin: 10px 10px;
     padding: 10px;
@@ -35,7 +35,7 @@ button {
 }
 
 button:hover {
-    font-size: 36px;
+    font-size: 32px;
     border-color: white;
     color: white;   
     box-shadow: 0px 0px 50px white;

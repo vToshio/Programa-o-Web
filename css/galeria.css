@@ -1,17 +1,18 @@
 img {
-    width: 300px;
-    height: 450px;
+    width: 200px;
+    height: 350px;
 }
 
 .gallery {
     display: flex;
-    margin: 50px;
+    flex-wrap: wrap;
+    margin: 20px;
     gap: 30px;
 }
 
 figcaption {
     color: yellow;
-    font-size: 36px;
+    font-size: 22px;
 }
 
 h1, h2, li, p{
@@ -19,22 +20,22 @@ h1, h2, li, p{
 }
 
 h1 {
-    font-size: 52px;
+    font-size: 32px;
     text-decoration: underline;
 }
 
 h2 {
-    font-size: 48px;
+    font-size: 28px;
 }
 
 p, li {
-    font-size: 32px;
+    font-size: 16px;
 }
 
 article {
     width: fit-content;
     height: fit-content;
-    margin: 300px 500px;
+    margin: 100px 300px;
     padding: 20px 100px;
     text-align: center;
     border-radius: 50px;
