@@ -1,0 +1,47 @@
+img {
+    width: 300px;
+    height: 450px;
+}
+
+.gallery {
+    display: flex;
+    margin: 50px;
+    gap: 30px;
+}
+
+figcaption {
+    color: yellow;
+    font-size: 36px;
+}
+
+h1, h2, li, p{
+    color: yellow;
+}
+
+h1 {
+    font-size: 52px;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+p, li {
+    font-size: 32px;
+}
+
+article {
+    width: fit-content;
+    height: fit-content;
+    margin: 300px 500px;
+    padding: 20px 100px;
+    text-align: center;
+    border-radius: 50px;
+    background: transparent;
+    box-shadow: 0px 0px 50px yellow;
+
+    word-wrap: break-word;     
+    white-space: -moz-pre-wrap; 
+    white-space: pre-wrap;
+}

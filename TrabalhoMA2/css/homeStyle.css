@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-image: url('/imagens/galaxia.jpg');
+}
+
+main {
+    text-align: center;
+    width: 100%;
+    margin-top: 17%;
+}
+
+h1 {
+    font-family: 'Star Wars';
+    font-size: 1300%;
+    color: white;
+    text-shadow: 0px 0px 50px yellow;
+}
+
+button {
+    font-size: 32px;
+    width: fit-content;
+    margin: 10px 10px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: transparent;
+    border-color: yellow;
+    color: yellow;
+    box-shadow: 0px 0px 50px yellow;
+}
+
+button:hover {
+    font-size: 36px;
+    border-color: white;
+    color: white;   
+    box-shadow: 0px 0px 50px white;
+}
+
+button:active {
+    font-size: 30px;
+}
+
+/*ANIMACOES*/
+.subindoTitulo {
+    position: relative;
+    bottom: -200%;
+    animation: animacaoSubir 6s forwards;
+}
+
+.subindoBotoes {
+    position: relative;
+    bottom: -200%;
+    animation: animacaoSubir 8s forwards;
+}
+
+@keyframes animacaoSubir {
+    to {
+        bottom: 0;
+    }
+}

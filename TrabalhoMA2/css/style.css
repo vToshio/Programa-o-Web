@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-image: url('/imagens/galaxia.jpg');
+}
+
+header {
+    width: 100%;
+    height: 125px;
+    display: flex;
+    background-color: black;
+    box-shadow: 0px 0px 50px yellow;
+}
+
+nav {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+nav ul {
+    font-size: 36px;
+    display: inline;
+    padding-left: 100px;
+}
+
+a {
+    color: white;
+}
+
+.links-navbar {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.links-navbar:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    font-family: "Star Wars";
+    width: 700px;
+    margin: auto;
+    padding-left: 50px;
+    font-size: 60px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    text-shadow: 0px 0px 20px yellow;
+    
+}
+
+footer {
+    width: 100%;
+    height: 350px;
+    background-color: black;
+    box-shadow: 0px 0px 50px yellow;
+}
+
+#logo-footer {
+    width: 100%;
+    font-size: 100px;
+    padding-top: 100px;
+    padding-left: 0;
+}
+
+#descricao-footer {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    text-align: center;
+    color: white;
+}
+
+section {
+    width: fit-content;
+    height: fit-content;
+    margin: 200px 400px;
+    padding: 100px;
+    text-align: center;
+    border-radius: 50px;
+    background: transparent;
+    box-shadow: 0px 0px 50px yellow;
+}
+
+.centralizado {
+    margin: 300px auto;
+}
+
+#biografia {
+    display: flex;
+}
+
+#George {
+    border-radius: 50px;
+    border-style: solid;
+    margin-left: 20px;
+    color: yellow;
+    box-shadow: 0px 0px 50px yellow;
+}
+
+#texto-biografia {
+    text-align: center;
+    margin: 20px 100px;
+    color: yellow;
+
+    word-wrap: break-word;     
+    white-space: -moz-pre-wrap; 
+    white-space: pre-wrap
+}
+
+h1, h2, li, p{
+    color: yellow;
+}
+
+h1 {
+    font-size: 52px;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+p {
+    margin: 20px;
+}
+
+p, li {
+    font-size: 32px;
+}
+
+form {
+    width: fit-content;
+    height: fit-content;
+    margin: 300px auto;
+    padding: 50px;
+
+    text-align: center;
+
+    border-radius: 50px;
+    border-width: 5px;
+    border-style: solid;
+
+
+    color: yellow;
+    border-color: yellow;
+    box-shadow: 0px 0px 50px yellow;
+}
+
+legend {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+label {
+    font-size: 36px;
+    text-align: left;
+    display: block;
+}
+
+input {
+    width: 300px;
+    height: 40px;
+    font-size: 36px;
+    border-radius: 15px;
+}
+
+.campo {
+    display: block;
+    width: fit-content;
+    margin: 30px auto;
+}
+
+#error {
+    margin-top: 50px;
+    font-size: 36px;
+    color: red;
+}
+
+button {
+    width: fit-content;
+    height: fit-content;
+    padding: 8px;
+    margin: 0 20px;
+    
+    font-size: 30px;
+    text-align: center;
+
+    border-radius: 20px;
+    border-style: solid;
+
+    border-color: yellow;
+    color: yellow;
+    background-color: transparent;
+}
+
+#botao-confirmar:hover {
+    color: green;
+    border-color: green;
+    box-shadow: 0px 0px 20px green;
+}
+
+#botao-limpar:hover {
+    color: red;
+    border-color: red;
+    box-shadow: 0px 0px 20px red;
+}
+
+#botoes {
+    margin-top: 50px;
+}
